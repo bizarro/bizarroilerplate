@@ -1,0 +1,14 @@
+.home {
+  @extend %page;
+
+  font-size: 100rem;
+  word-break: break-all;
+
+  &--active {
+    @extend %page--active;
+  }
+}
+
+.home__content {
+  @extend %content;
+}

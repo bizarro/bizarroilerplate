@@ -1,0 +1,20 @@
+@import './utils/variables';
+@import './utils/functions';
+@import './utils/responsive';
+@import './utils/mixins';
+@import './utils/vendors';
+
+@import './base/fonts';
+@import './base/reset';
+
+@import './shared/links';
+@import './shared/sections';
+
+@import './components/canvas';
+@import './components/functionals';
+@import './components/navigation';
+@import './components/preloader';
+
+@import './pages/home/home';
+
+@import './pages/about/about';

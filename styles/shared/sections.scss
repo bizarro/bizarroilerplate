@@ -1,0 +1,28 @@
+%page {
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: opacity 1s ease, visibility 1s ease;
+  visibility: hidden;
+  width: 100%;
+  z-index: z('content');
+}
+
+%page--active {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+%content {
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  will-change: transform;
+}

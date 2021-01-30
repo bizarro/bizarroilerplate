@@ -1,0 +1,21 @@
+.about {
+
+}
+
+.about__content {
+
+}
+.about {
+  @extend %page;
+
+  font-size: 100rem;
+  word-break: break-all;
+
+  &--active {
+    @extend %page--active;
+  }
+}
+
+.about__content {
+  @extend %content;
+}

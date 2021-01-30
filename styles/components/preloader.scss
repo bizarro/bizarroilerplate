@@ -1,0 +1,13 @@
+.preloader {
+  @extend %cover;
+
+  background: $color-white;
+  overflow: hidden;
+  position: fixed;
+  transform-origin: 0 0;
+  z-index: z('preloader');
+
+  &--loaded {
+    transform: scaleY(0);
+  }
+}
